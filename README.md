@@ -1,23 +1,24 @@
 ###### ICS3UC - Mr. Brash 🐿️
 
-# My First Repository
+# Using VSCode and GitHub
 
-This is a Git repository (aka _repo_). You can work on it wherever and then upload it back to GitHub for safe-keeping.<br>**Mr. Brash will demonstrate in class or read below if you miss it.**
+You are reading a Git _repository_ (aka repo). It is a package of files that have a history tracker. GitHub :octocat: is a place ("hub") to store Git repos online. You can download and edit the repo, then upload it back to GitHub for safe-keeping.<br>**Mr. Brash will demonstrate in class or read below if you miss the demo.**
 
-## Set the user info on your computer
+## First - Set your user info for Git on your computer
 
-Before you can use GitHub in your VSCode, you need to make sure your info is correct. This only has to be done once (per computer).
-1. Go to a Terminal prompt
-2. Enter this: `git config --global user.name "Your Name"`   * use _your_ name
-3. Not enter: `git config --global user.email "first.last@stu.ocsb.ca"`  * use _your_ email address
+Before you can use GitHub in your VSCode, you need to make sure your info is correct. **This only has to be done once (per computer)**.
+1. If you don't see a terminal in the bottom, open one (Terminal > New Terminal)
+2. Enter this: `git config --global user.name "Your Name"`   * use _your_ name, for example Mr. Squirrel
+3. Not enter: `git config --global user.email "first.last@stu.ocsb.ca"`  * use _your_ email address for example mrsquirrel@stu.ocsb.ca
 
-## Want to work on it in VSCode?
+## Let's download this repo and edit it inside VSCode
 
-You have two options.<br>
-In both cases, you will need the web address (URL) of the repo.
+You have two options that do the same thing.<br>
+In both cases, you will need the web address (URL) of the repo you want to edit.
+
+You have to close your current work in VSCode by going to **FILE > Close Folder** (don't worry, you can always open the folder again later)
 
 ### Option 1:
-- Close your current work in VSCode by going to **FILE > Close Folder** (don't worry, you can always open the folder again later)
 - Click on the **Source Control** menu on the left (CTRL+SHIFT+G keyboard shortcut)
 - Click on **Clone Repository**
 - In the panel that opens, paste the URL to the repository and hit ENTER
@@ -32,16 +33,26 @@ In both cases, you will need the web address (URL) of the repo.
 - You'll be asked where to save the code on your computer (_don't select "My Drive"_)
 - You might be asked if you want to open the workspace - yes, click Open
 
-## Saving changes to your code (or submitting your work to Mr. Brash)
+## Saving changes to your code
 
-Your code will save to your computer, but if you want to save it GitHub it's a two-step process.
+Your code will save to your local computer while you work, but the _history_ is not created automatically.
+
+### Create a 'Snapshot' of the repo:
 
 1. Go to the **Source Control** tab in VSCode
-2. Enter a message above the Commit button (it should reflect what changes have been made to the code.)
-   - Simple messages like "Finished" or "Fixed NaN Error" are good.
+2. **Enter a commit message**  (it should reflect what changes have been made to the code.)
+   - Simple messages like "Final edit" or "Fixed rounding error" are good.
 3. In the heading titled **Changes** click the `+` to "Stage All Changes". This prepares the files for the snapshot.
 4. Click **Commit**
-5. The Commit button should change to **Synch Changes**. Click that to upload your code to GitHub.
+
+This created a new snapshot of the code changes, in case you ever want to go back.
+
+### Push (upload) your changes back to GitHub
+After you commit, the `Commit` button should change to `Synch Changes` or something similar. Click that to upload your code to GitHub.
 
 <br><br>
-[Your Task](YOUR_TASK.md)
+[Your Task](./YOUR_TASK.md)
+
+<br><br><br>
+
+🐿️
