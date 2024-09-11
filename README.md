@@ -50,8 +50,7 @@ This created a new snapshot of the code changes, in case you ever want to go bac
 ### Push (upload) your changes back to GitHub
 After you commit, the `Commit` button should change to `Synch Changes` or something similar. Click that to upload your code to GitHub.
 
-<br><br>
-[Your Task](./YOUR_TASK.md)
+### [Your Task](./YOUR_TASK.md)  (click)
 
 <br><br><br>
 
